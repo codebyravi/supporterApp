@@ -1,0 +1,132 @@
+/* .tile-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15vh;
+  background: linear-gradient(
+      to bottom right, lightgray,  darkgray)
+} */
+/* .tile {
+  cursor: pointer;
+  position: relative;
+  flex-grow: 1;
+  margin: 2vw 2vh;
+  width: 275px;
+  max-width: 275px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: -4px 4px 20px 1px black;
+  text-decoration: none;
+  color: inherit;
+  animation: tilebounce .3s; 
+} */
+/* .tile:active {
+  box-shadow: -4px 4px 10px 1px black;
+} */
+/* .text {
+  font-family: monospace;
+  font-size: 2em;
+} */
+
+/* .App {
+  /* height: 100vh;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(lightgray, darkgray) */
+
+
+
+/* Header Styles */
+/* .Header-Parent {
+  display: flex; 
+  justify-content: space-evenly;
+  background: linear-gradient(lightgray, darkgray)
+} */
+
+/* .app-title {
+  font-size: 76px; 
+} */
+
+/* Logo Styles */
+/* .logo-img {
+  position: fixed;
+  top: 0;
+  left: 2.5vw;
+  height: 125px; 
+  width: 125px; 
+  opacity: .75; 
+  border-radius: 0px 0px 10px 10px; 
+} */
+
+
+/* Choice Styles */
+/* .Choice-parent{
+  padding-top: 3em;  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+select {
+margin-top: 1.5em; 
+}
+
+.label-text {
+  font-size: 26px; 
+}
+ */
+
+/*Solution Styles */
+/* #no-adapter {
+  background-color: #023f0a;
+  width: 75vw; 
+  margin: auto; 
+  margin-top: 15px; 
+  padding: 25px 0 25px;
+} */
+
+
+/* #adapter {
+  background-color: #5a0707;
+  width: 85vw; 
+  margin: auto; 
+} */
+
+/* #adapter h1, h2 {
+  color: white;
+} */
+
+#adapter a {
+  color: #282bff
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* button style */
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes tilebounce {
+  0% {
+    transform: translateY(15%);
+  }
+  50%{
+    transform: translateY(-10%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
